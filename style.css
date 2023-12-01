@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{width: 900px;
+    min-height: 100hv;
+    margin: 0 auto;
+   
+     }
+     body {background-color: #F6E9D3;}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+.navbar{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: #F6E9D3;
+    border-radius: 1rem;
+    
+
+}
+
+.drop-down{position: absolute;
+padding: 0.5rem 0;
+margin: 0.5rem -0.5rem;
+background: antiquewhite;
+color: #3E2808;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+border-radius: 0.5rem;
+font-size: 12px;
+display: none;
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link, .drop-down{list-style: none;
+height: 100%; padding: 0.5rem;
+font-weight: 600;
+cursor: pointer;}
+
+nav ul li a {
+    color: #3E2808;
+    text-decoration: none;
+}
+
+.drop-down {
+    list-style: none;
+    height: 10%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: #D9BE94;
+    color: #3E2808;
+    border-radius: 0.5rem;
+}
+
+.interiors:hover .drop-down{
+display: block;
+}
+
+
+.collections:hover .drop-down{
+    display: block;
+}
+
+.collections:hover .dropdown-icon{
+    transform: rotate(180deg);
+}
+
+.interiors:hover .dropdown-icon{
+    transform: rotate(180deg);
+}
+
+.interiors a {
+    display: flex;
+}
+.collections a {
+    display: flex;
+}
+
+
+.dropdown-icon{
+    font-size: 20px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.drop-down li:hover{
+    background: #D9BE94;
+    color: #3E2808;
+    border-radius: 0.2rem;
+}
+.content{
+    margin-top: 14%;
+    color: #3E2808;
+    max-width: 620px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 1px;
+   
+
+}
+
+input[type=text], select, textarea {
+    background-color: #3E2808;
+    width: 50%;
+    color: #D9BE94;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #D9BE94;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  
+  input[type=submit]:hover {
+    background-color: #D9BE94;
+  }
+  .img-plant{
+    width: 800px;
+    height: 250px;
+    border-radius: 1rem;
+
+    }
+.image{
+    max-width: 50%;
+    max-height: 15%;
+    float: right;
+}
+.text{
+    padding-right: 30px;
+    float: right;}
+    
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%;
+        margin: 5% auto;
+    }
+    .product-area {
+        width: 30%;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        background-color: #F6E9D3;
+        border-radius: 8px;
+    }
+    .img-area {
+        position: relative;
+        width: 100%;
+    }
+    .img-area img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    a {text-decoration: none;}
+    
+    .area-1 {
+        padding: 10px 20px;
+        text-align: center;
+        background: #80a1a5;
+    }
+    .area-2 {
+        padding: 10px 20px;
+        text-align: center;
+        background: #c0c375;
+    }
+    .area-3 {
+        padding: 10px 20px;
+        text-align: center;
+        background: #bb885e;
+    }
+    .info-area h3 {
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 10px;
+        color: #3E2808;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+   
+   
+    .checked {
+        color: orange !important;
+    }
+    .product-price {
+        
+        background-color: #D9BE94;
+        color: #3E2808;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        width: 110PX;
+        margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+        .product-area {
+            width: 48%;
+        }
+    }
+    @media (max-width: 576px) {
+        .product-area {
+            width: 100%;
+        }
+    }
+    
+    
+  
