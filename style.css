@@ -228,6 +228,9 @@ input[type=text], select, textarea {
         width: 110PX;
         margin: 0 auto;
     }
+    .product-price:hover{
+        background-color: #a68c76;
+    }
     @media (max-width: 768px) {
         .product-area {
             width: 48%;
