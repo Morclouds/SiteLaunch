@@ -243,6 +243,107 @@ input[type=text], select, textarea {
             width: 100%;
         }
     }
+
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12%;
+      }
+      .user-card {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         background-color: #b08969;
+         border-radius: 10px;
+         padding: 40px;
+         width: 650px;
+         position: relative;
+         overflow: hidden;
+         box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+     }
+      
+     .user-card:before {
+        content: '';
+        position: absolute;
+        height: 300%;
+        width: 173px;
+        background: #80a1a5;
+        top: -60px;
+        left: -125px;
+        z-index: 0;
+        transform: rotate(17deg);
+      }
+      
+      .user-card-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        z-index: 3;
+      }
+      
+      .user-card-img img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      .user-card-info {
+        text-align: center;
+      }
+      
+      .user-card-info h2 {
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: 'Bebas Neue', sans-serif;
+      }
+      
+      .user-card-info p {
+        font-size: 14px;
+        margin-bottom: 2px;
+      }
+      .user-card-info p span {
+         font-weight: 700;
+         margin-right: 10px;
+     }
+      @media only screen and (min-width: 768px) {
+        .user-card {
+          flex-direction: row;
+          align-items: flex-start;
+        }   
+        .user-card-img {
+          margin-right: 20px;
+          margin-bottom: 0;
+        }
+      
+        .user-card-info {
+          text-align: left;
+        }
+      }
+     
+      @media (max-width: 767px){
+        .flex{
+           padding-top: 3%;
+        }
+        .user-card:before {
+           width: 300%;
+           height: 200px;
+           transform: rotate(0);
+        }
+        .user-card-info h2 {
+           margin-top: 25px;
+           font-size: 35px;
+        }
+        .user-card-info p span {
+           display: block;
+           margin-bottom: 15px;
+           font-size: 18px;
+        }
+      }
+
     
     footer{
         background: #c0c375;
@@ -323,3 +424,62 @@ input[type=text], select, textarea {
         font-size: 16px;
         
     }
+
+    .welcome-text h1 {
+        text-align: center;
+        color: #565656;
+        text-transform: uppercase;
+        font-size: 38px;
+        font-family: alfa slab one;
+    }
+    .welcome-text a {
+        border: 1px solid #565656;
+        padding: 10px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 20px;
+        display: inline-block;
+        color: #565656;
+        font-weight: 900;
+    }
+    .welcome-text a:hover {
+        background: #565656;
+        color: #fff;
+    }
+    @media (max-width:600px){
+        .container {
+    width: 100%;
+    }
+    .logo {
+    float: none;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    }
+    .navbar {
+    float: none;
+    margin-top: 0;
+    }
+        .navbar li a {
+    padding: 5px;
+    font-size: 11px;
+    }
+    .navbar {
+    text-align: center;
+    }
+    .nav-link{
+        padding: .5rem;
+    }
+    .drop-down{
+        padding: 0px 10px;
+      
+    }
+        
+        .welcome-text h1 {
+    font-size: 30px;
+    }
+    }
+    
+    
+    
