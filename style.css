@@ -503,6 +503,18 @@ input[type=text], select, textarea {
         color: #3E2808;
     }
 
+    @media (max-width:600px){
+        .container2 {
+    width: 100%;}
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     .list{
         padding: 0;
     }
