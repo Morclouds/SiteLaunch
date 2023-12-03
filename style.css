@@ -8,10 +8,24 @@ body{
     background-color: #F6E9D3;
 }
 .container{
-    width: 1170px;
+    width: 1000px;
     margin: auto;
     min-height: 100 vh;
     padding-bottom: 150px;
+}
+
+@media (max-width:600px){
+
+    .container{
+        width: 100%;
+    
+    }
+}
+@media (min-width:601px){
+
+    .container{
+        width: 100%;
+    }
 }
 
 
