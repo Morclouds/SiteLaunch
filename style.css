@@ -28,7 +28,7 @@ header{
 }
 
 .navbar{
-    display: flex;
+    
     list-style: none;
     margin-top: 30px;
 }
@@ -99,7 +99,7 @@ h4{
 width: 100%;
 }
 .logo {
-float: none;
+float: left;
 width: 20%;
 text-align: center;
 margin: auto;
