@@ -479,6 +479,12 @@ input[type=text], select, textarea {
     .footer-content ul{
         text-align: center;
     }
+
+    .footer-content a{
+        text-decoration: none;
+        color: #3E2808;
+    }
+
     .list{
         padding: 0;
     }
