@@ -74,7 +74,7 @@ h4{
 
 
 @media (max-width:600px){
-    .wrapper {
+    .container {
 width: 100%;
 }
 .logo {
