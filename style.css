@@ -41,13 +41,13 @@ header{
 }
 .welcome-text h1 {
 	text-align: center;
-	color: #bb885e;
+	color: #F6E9D3;
 	text-transform: uppercase;
 	font-size: 38px;
 	font-family: alfa slab one;
 }
 h4{
-    color: #bb885e;
+    color: #F6E9D3;
 }
 .welcome-text a {
 	border: 1px solid #3E2808;
@@ -504,7 +504,25 @@ input[type=text], select, textarea {
         
     }
 
-   
+    .about-text a {
+        border: 1px solid #3E2808;
+        padding: 10px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 20px;
+        display: inline-block;
+        color: #3E2808;
+        background-color: #80a1a5;
+        font-weight: 900;
+    } 
     
-    
+    .about-text {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     
