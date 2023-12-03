@@ -14,19 +14,7 @@ body{
     padding-bottom: 150px;
 }
 
-@media (max-width:300px){
 
-    .container{
-        width: 100%;
-    
-    }
-}
-@media (min-width:301px){
-
-    .container{
-        width: 100%;
-    }
-}
 
 
 
