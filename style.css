@@ -332,12 +332,12 @@ input[type=text], select, textarea {
     .product-price:hover{
         background-color: #a68c76;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         .product-area {
             width: 48%;
         }
     }
-    @media (max-width: 576px) {
+    @media (max-width: 600px) {
         .product-area {
             width: 100%;
         }
