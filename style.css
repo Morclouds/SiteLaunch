@@ -14,14 +14,14 @@ body{
     padding-bottom: 150px;
 }
 
-@media (max-width:600px){
+@media (max-width:300px){
 
     .container{
         width: 100%;
     
     }
 }
-@media (min-width:601px){
+@media (min-width:301px){
 
     .container{
         width: 100%;
