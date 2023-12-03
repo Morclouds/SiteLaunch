@@ -33,6 +33,11 @@ header{
 }
 .navbar {
     display: inline-block;
+    align-items: center;
+justify-content: space-between;
+padding: 0.5rem;
+background: #F6E9D3;
+margin: auto;
 }
 .navbar  {
 	color: #3E2808;
@@ -420,7 +425,7 @@ input[type=text], select, textarea {
          font-weight: 700;
          margin-right: 10px;
      }
-      @media only screen and (min-width: 301px) {
+      @media only screen and (min-width: 601px) {
         .user-card {
           flex-direction: row;
           align-items: flex-start;
@@ -435,7 +440,7 @@ input[type=text], select, textarea {
         }
       }
      
-      @media (max-width: 300px){
+      @media (max-width: 600px){
         .flex{
            padding-top: 3%;
         }
