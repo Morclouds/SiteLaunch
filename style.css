@@ -317,7 +317,7 @@ input[type=text], select, textarea {
     }
     @media (max-width: 768px) {
         .product-area {
-            width: 100%;
+            width: 48%;
         }
     }
     @media (max-width: 576px) {
