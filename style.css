@@ -54,10 +54,11 @@ p{
 	padding: 10px 25px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 	margin-top: 20px;
 	display: inline-block;
-	color: #D9BE94;
+	color: #3E2808;
+    background-color: #80a1a5;
 	font-weight: 900;
 }
 .welcome-text a:hover {
