@@ -10,7 +10,8 @@ body{
 .container{
     width: 1000px;
     margin: auto;
-    
+    min-height: 100 vh;
+    padding-bottom: 150px;
 }
 
 
