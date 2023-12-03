@@ -410,7 +410,7 @@ input[type=text], select, textarea {
          font-weight: 700;
          margin-right: 10px;
      }
-      @media only screen and (min-width: 601px) {
+      @media only screen and (min-width: 301px) {
         .user-card {
           flex-direction: row;
           align-items: flex-start;
@@ -425,7 +425,7 @@ input[type=text], select, textarea {
         }
       }
      
-      @media (max-width: 600px){
+      @media (max-width: 300px){
         .flex{
            padding-top: 3%;
         }
