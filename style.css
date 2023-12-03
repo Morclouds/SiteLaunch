@@ -506,6 +506,10 @@ input[type=text], select, textarea {
     @media (max-width:600px){
         .container2 {
     width: 100%;}
+
+    .footer-content{
+        text-align: center;
+    }
     }
     
     
