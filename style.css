@@ -8,7 +8,7 @@ body{
     background-color: #F6E9D3;
 }
 .container{
-    width: 1170px;
+    width: 1000px;
     margin: auto;
     min-height: 100 vh;
     padding-bottom: 150px;
@@ -32,21 +32,21 @@ header{
     list-style: none;
     margin-top: 30px;
 }
-.navbar li{
+.navbar {
     display: inline-block;
 }
-.navbar li a {
-	color: #565656;
+.navbar  {
+	color: #3E2808;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: poppins;
 	font-size: 16px;
 	text-transform: uppercase;
-	border-radius: 50px;
+	border-radius: 5px;
 }
 .nav-bar li a:hover {
-	background: #565656;
-	color: #fff;
+	background: #3E2808;
+	color: #80a1a5;
 }
 
 .logo{
@@ -157,8 +157,8 @@ nav ul li a {
 }
 .nav-link:hover{
     background-color: #D9BE94;
-    color: #3E2808;
-    border-radius: 0.5rem;
+    color: #80a1a5;
+    border-radius: 0.3rem;
 }
 
 .interiors:hover .drop-down{
@@ -197,7 +197,7 @@ display: block;
 
 .drop-down li:hover{
     background: #D9BE94;
-    color: #3E2808;
+    color: #80a1a5;
     border-radius: 0.2rem;
 }
 .content{
