@@ -10,7 +10,8 @@ body{
 .container{
     width: 1170px;
     margin: auto;
-    
+    min-height: 100 vh;
+    padding-bottom: 150px;
 }
 
 
@@ -26,6 +27,27 @@ header{
     position: relative;
 }
 
+.navbar{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a {
+	color: #565656;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+.nav-bar li a:hover {
+	background: #565656;
+	color: #fff;
+}
 
 .logo{
     float: left;
@@ -100,17 +122,7 @@ font-size: 30px;
 }
 
 
-.navbar{
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem;
-    background: #F6E9D3;
-    border-radius: 1rem;
-    
 
-}
 
 .drop-down{position: absolute;
 padding: 0.5rem 0;
