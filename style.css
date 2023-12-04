@@ -664,7 +664,7 @@ input[type=text], select, textarea {
     }
 
 
-    .feature-text p {
+    .feature-text p{
         border: 1px solid #3E2808;
         padding: 10px 25px;
         text-decoration: none;
