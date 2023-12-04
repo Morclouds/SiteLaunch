@@ -661,3 +661,17 @@ input[type=text], select, textarea {
 	font-family: rubik mono one;
     padding: 30px 20px;
     }
+
+
+    .img1 {
+        max-width: 60%;
+        padding: 20px;
+        margin: auto;
+        
+    }
+    .img1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
