@@ -693,6 +693,14 @@ input[type=text], select, textarea {
         
     }
 
+    @media (max-width:600px){
+        .feature-text{
+            width: 100%;
+        }
+    }
+
+    
+
 
     .img1 {
         max-width: 60%;
