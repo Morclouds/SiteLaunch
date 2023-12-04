@@ -31,16 +31,22 @@ header{
 .navbar{
     display: flex;
     list-style: none;
-    margin-top: 30px;
+    
+    text-align: center;
 }
 .navbar {
-    display: inline-block;
-    text-align: center;
-justify-content: space-between;
-padding: 0.5rem;
+    padding: 0.5rem; 
 background: #F6E9D3;
 
+justify-content: space-between;
+
 }
+
+.navbar ul{
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .navbar  {
 	color: #3E2808;
 	text-decoration: none;
@@ -144,11 +150,16 @@ display: none;
 .nav-links{
     display: flex;
     gap: 2rem;
+    
+    
+    
 }
 .nav-link, .drop-down{list-style: none;
 height: 100%; padding: 0.5rem;
 font-weight: 600;
-cursor: pointer;}
+cursor: pointer;
+
+}
 
 nav ul li a {
     color: #3E2808;
@@ -161,11 +172,13 @@ nav ul li a {
     padding: 0.5rem 1rem;
     font-weight: 600;
     cursor: pointer;
+    
 }
 .nav-link:hover{
     background-color: #D9BE94;
     color: #80a1a5;
     border-radius: 0.3rem;
+    
 }
 
 .interiors:hover .drop-down{
@@ -190,6 +203,7 @@ display: block;
 }
 .collections a {
     display: flex;
+    
 }
 
 
