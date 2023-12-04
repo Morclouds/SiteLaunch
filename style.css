@@ -676,14 +676,14 @@ input[type=text], select, textarea {
         background-color: #c0c375;
         font-weight: 900; }
 
-.feature-text a{
-    text-decoration: underline;
-    color: #3E2808;
-}
-.feature-text a:hover{
-    text-decoration: underline;
-    color: #80a1a5;
-}
+        .feature-text a{
+            text-decoration: underline;
+            color: #3E2808;
+        }
+        .feature-text a:hover{
+            text-decoration: underline;
+            color: #80a1a5;
+        }
 
     .feature-text {
         width: 100%;
